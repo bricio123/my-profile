@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #6a006a;
+  height: 100%;
+  width: 100%;
+}
+.nav_photo {
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.jumbotron {
+  height: 100vh;
+  width: 60%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 100%;
+}
+.modal-header{
+    background: #6a006a;
+}
